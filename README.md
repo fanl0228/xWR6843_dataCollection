@@ -10,6 +10,7 @@ The main functions of the repository are as follows:
 
 
 ## How to Use it？
+    - Download This repository to D:
     - modify IWR6843_PKG/configs/profile_2d.cfg
     - modify serial port
 
