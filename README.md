@@ -10,8 +10,10 @@ The main functions of the repository are as follows:
 
 
 ## How to Use it？
-    - Download This repository to D:
-    - modify IWR6843_PKG/configs/profile_2d.cfg
+    - Download this repository to D:
+    - Create "logs" and "RadarDate" directories
+    - pip install requirement.txt
+    - modify IWR6843_PKG/configs/profile_2d.cfg (If needed)
     - modify serial port
 
 
