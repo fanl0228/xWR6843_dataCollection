@@ -5,15 +5,18 @@ from IWR6843_PKG.Loging import Logger
 log = Logger("DCA1000EVM_CLI")
 
 #local CLI
-PATH_BASE = r"D:/xWR6843_DCA1000_GetData/DCA1000EVM_CLI"
-DCA1000EVM_CLI_Control = PATH_BASE + r"/DCA1000EVM_CLI_Control.exe "
+# PATH_BASE = r"D:/xWR6843_DCA1000_GetData/DCA1000EVM_CLI"
+# DCA1000EVM_CLI_Control = PATH_BASE + r"/DCA1000EVM_CLI_Control.exe "
+PATH_BASE = os.path.join(os.getcwd(), "DCA1000EVM_CLI")
+DCA1000EVM_CLI_Control = os.path.join(PATH_BASE, "DCA1000EVM_CLI_Control.exe ")
 CWD_DIR = PATH_BASE
 
 global JSON_FILE
 
 def dca1000_set_json_file(json):
     global JSON_FILE
-    JSON_FILE = PATH_BASE + r"/" + json
+    # JSON_FILE = PATH_BASE + r"/" + json
+    JSON_FILE = json
 
 def dca1000_reset_ar_device():
     if JSON_FILE == None:
