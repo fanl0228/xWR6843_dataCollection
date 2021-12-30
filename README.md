@@ -18,6 +18,13 @@ The main functions of the repository are as follows:
     - IWR6843 is configured as DCA1000 capture card mode
 
 
+## UART [Driver Link](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+    XDS110 enhanced/standard ports not found
+    - Enhanced COM Port Driver
+    - Standard COM Port Driver
+    
+
+
 ## Reference
 
 1. [Ti](https://www.ti.com/)
