@@ -1,6 +1,7 @@
 import subprocess
 import time
 from IWR6843_PKG.Loging import Logger
+import os
 
 log = Logger("DCA1000EVM_CLI")
 
