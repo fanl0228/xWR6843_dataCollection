@@ -17,6 +17,15 @@ The main functions of the repository are as follows:
   - modify serial port
   - IWR6843 is configured as DCA1000 capture card mode
 
+
+## Change Data Save Path
+  - In the file "xWR6843_dataCollection\DCA1000EVM_CLI\datacard_config_recoder_raw_default.json"
+        
+    - "fileBasePath": "D:\\xWR6843_DCA1000_GetData\\RadarData", -->  "Your path."
+
+  - 
+
+
 ## Hardware Configuration
 - [DCA1000EVM](https://www.ti.com.cn/tool/cn/DCA1000EVM) Hardware platform and its technical documentation
     - [DCA1000EVM Data Capture Card](https://www.ti.com.cn/cn/lit/ug/spruij4a/spruij4a.pdf?ts=1649507004718&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Ftool%252Fcn%252FDCA1000EVM)

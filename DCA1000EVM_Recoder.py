@@ -12,7 +12,7 @@ if __name__ == '__main__':
     time.sleep(2)
 
     # config IWR6843 and sensor start
-    config_file_name = "IWR6843_PKG/configs/profile_2d.cfg"
+    config_file_name = "IWR6843_PKG/configs/Demo_3Tx4RxMIMO.cfg"
     iwr6843 = mmwave_serial.serial_iwr6843(configFileName=config_file_name,
                                            userPort="COM24", dataPort="COM23")
     iwr6843.serial_initialize()
@@ -21,7 +21,7 @@ if __name__ == '__main__':
     # DCA1000EVM start record
     dca1000_cli_cmd.dca1000_start_record()
 
-    time.sleep(60)
+    time.sleep(10)
     dca1000_cli_cmd.dca1000_stop_record()
     iwr6843.serial_sensor_stop()
     # iwr6843.serial_close()

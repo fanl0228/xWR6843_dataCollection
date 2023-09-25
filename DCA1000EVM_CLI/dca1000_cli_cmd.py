@@ -58,10 +58,10 @@ def dca1000_record():
                               stdout=subprocess.PIPE,
                               stderr=subprocess.STDOUT,
                               encoding='utf-8')
-    output, error = result.communicate()
-    log.debug(output)
-    if error is not None:
-        log.error(error)
+    # output, error = result.communicate()
+    # log.debug(output)
+    # if error is not None:
+    #     log.error(error)
 
 
 def dca1000_fpga_version():
@@ -133,10 +133,10 @@ def dca1000_stop_record():
                               stdout=subprocess.PIPE,
                               stderr=subprocess.STDOUT,
                               encoding='utf-8')
-    output, error = result.communicate()
-    log.debug(output)
-    if error is not None:
-        log.error(error)
+    # output, error = result.communicate()
+    # log.debug(output)
+    # if error is not None:
+    #     log.error(error)
 
 
 def dca1000_query_sys_status():
